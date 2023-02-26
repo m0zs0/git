@@ -1,0 +1,29 @@
+GIT 2: Ágak kezelése
+
+
+1. A JSON adatfeldolgozást kezdtük el tanulni. Első körben a szórár adattípust tanultuk meg egy text állományból beolvasva listába majd 4 feladatot oldottunk meg.
+
+
+2. Készítünk egy ágat egy új feature-nek: "5. feladat: nevek és emailcímek kigyűjtése állományba"
+git branch feature5
+git checkout feature5
+(egy lépésben az előző két parancs: git checkout -b feature5)
+megírjuk az 5. feladatot, és stage-eljük, majd commitáljuk (feature5 kész)
+git add .
+git commit -m"feature5 kész"
+(egy lépésben az előző két parancs: git commit –am "feature5 kész" )
+
+
+3. Itt jön egy kérés, hogy a 3. feladatban a "kolisok nevei képernyőre" feladatban a nevek mellett az email cím is szerepeljen a kiírásban
+git checkout main     Átváltunk a fő ágra
+git checkout -b hotfix3  Készítünk egy új ágat a hotfix-nek
+Megírjuk a javítást
+git commit –am "hotfix3 kész"    Ha kész elmentjük a javítást
+git checkout main   Visszaváltunk a main-re
+
+git log --oneline --all --graph    Megtekintjük a commitok strukturáját
+
+git merge hotfix3   Beolvasztjuk a hotfix3 ágat a main-be
+git branch –d hotfix3   Töröljük a hotfix3 ágat
+
+4. Visszaváltunk az előző munkánk ágára és folytatjuk, azt is merge-eljük végül töröljük a feature5 ágat

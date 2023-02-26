@@ -1,0 +1,38 @@
+GIT 1.
+
+1. Telepítés
+2. Helyi repo használata
+>cd gitteszt
+>git init
+.git/config
+>git config --local user.name "mozso"
+>git config --local user.email "mozso@gmail.com"
+>git config --list
+>git config --list --show-origin
+>cls
+program.py állomány létrehozása
+>git status   (untracked)
+.git/objects
+>git add program.py snapshot készítése/stage-re rakás
+>git status (commit nem volt, de tracked, staged: zöld)
+>git commit -m "első mentés"
+.git/objects
+localis repoba kerül
+>git status (nincs mit kommitolni)
+>cls
+program.py állomány módosítása
+új állomány létrehozása: tetelek.py
+>git status
+program.py: modified
+tetelek.py: untracked
+>git diff HEAD   különbségek kilistázása a legutolsó mentetthez
+>git add . több állomány-ról snapshot
+>git status
+>git commit -m "tetelek.py létrehozva"
+>git log   commitok listája
+>git shortlog
+
+gitteszt-ben létrehozni .gitignore és ebbe teszünk állományneveket akkor ezek nem lesznek követve
+
+visszaállítás
+>git checkout 734f9     commit száma

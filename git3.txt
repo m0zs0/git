@@ -1,0 +1,30 @@
+GIT 3: github.com
+
+I. regisztráció
+
+II.
+1. lépés: locális repository létrehozása (lásd előbb)
+(.gitignore állományban a nem verziókövett állományokat kell megadni)
+2. lépés: github-on üres repository létrehozása
+JSON  (Private, )
+3. lépés: a lokális és remote repository-k összekapcsolása
+git remote add origin https://github.com/m0zs0/JSON.git
+git push -u origin main  (lokális repo->remote repo; ezután elég a git push)
+
+Hitelesítő adatok!
+Windows keresés: hitelesítőadat-kezelő
+Windows rendszerbeli hitelesítő adatok
+git:https://github.com felhasználónév; jelszó
+
+III. Létező github remote repository lehúzása (klónozás)
+-célkönyvtárba állok (PYTHON)
+-git clone <URL> (mappástól szedi le!)
+
+IV. GitHub Desktop
+:)
+
+
+?git clone?
+
+
+git pull (lokális repo<-remote repo)
