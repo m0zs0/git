@@ -1,1 +1,8 @@
 github+vsc
+
+1. Locális repository létrehozása
+2. Stage-elés, Commitolás
+3. Publikálás remote repository-ba
+4. Remote repoban módosítás, vsc-ben .../pull
+4. Conflict: Ugyanannak a módosítása a remote és a local repo-ban is
+5. Klónozás: .../clone       (git clone https:...git)
