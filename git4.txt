@@ -6,3 +6,5 @@ github+vsc
 4. Remote repoban módosítás, vsc-ben .../pull
 4. Conflict: Ugyanannak a módosítása a remote és a local repo-ban is
 5. Klónozás: .../clone       (git clone https:...git)
+
+https://www.youtube.com/watch?v=Enzva3d3uuk
