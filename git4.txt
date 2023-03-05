@@ -8,4 +8,4 @@ github+vsc
 5. Klónozás: .../clone       (git clone https:...git)
 
 https://www.youtube.com/watch?v=Enzva3d3uuk
-https://www.youtube.com/watch?v=Enzva3d3uuk
+
